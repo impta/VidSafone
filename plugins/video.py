@@ -40,7 +40,6 @@ ydl_opts = {
         "geo_bypass": True,
         "nocheckcertificate": True,
 }
-ydl = YoutubeDL(ydl_opts)
 group_call = GroupCallFactory(User, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM).get_group_call()
 
 
