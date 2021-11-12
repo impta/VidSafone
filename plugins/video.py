@@ -35,11 +35,7 @@ from helpers.decorators import authorized_users_only
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 
-ydl_opts = {
-        "quiet": True,
-        "geo_bypass": True,
-        "nocheckcertificate": True,
-}
+
 group_call = GroupCallFactory(User, GroupCallFactory.MTPROTO_CLIENT_TYPE.PYROGRAM).get_group_call()
 
 
